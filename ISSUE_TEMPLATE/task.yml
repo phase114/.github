@@ -1,0 +1,22 @@
+name: Задача
+description: Поставить задачу себе или коллеге
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что сделать
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем
+  - type: textarea
+    id: done
+    attributes:
+      label: Готово, когда
+      description: По чему понять, что задача закрыта
+  - type: input
+    id: due
+    attributes:
+      label: Срок
