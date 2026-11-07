@@ -1,5 +1,6 @@
 name: Задача
 description: Поставить задачу себе или коллеге
+projects: ["phase114/1"]
 body:
   - type: textarea
     id: what
